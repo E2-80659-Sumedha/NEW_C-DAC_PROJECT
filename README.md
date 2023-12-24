@@ -1,4 +1,4 @@
-### NEW_C-DAC_PROJECT
+### MQTT based coal mining monitoring using RaspberryPi
 
 __Description :)__
 
