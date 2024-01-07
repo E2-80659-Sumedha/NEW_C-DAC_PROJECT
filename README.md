@@ -8,6 +8,7 @@ __Description :)__
 __Installation :)__
 
 For NodeMCU all installation and all required settings:-
+
   1.To upload program on NodeMCU microcontroller we have to install Arduino IDE from which we can easly upload our code on NodeMCU.
     Arduino IDE also provide there are many importances in built libarary we can install any libarary as our requirnment on Arduino 
     IDE itself.
