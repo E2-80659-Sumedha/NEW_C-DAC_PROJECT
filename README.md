@@ -5,7 +5,7 @@
  Now I decided to do my project using NodeMCU and RaspberryPi, where I used two NodeMCUs (ESP8266), in which I connected the temperature and humidity sensor (DHT11 sensor) to one NodeMCU and to the other NodeMCU I connected the gas sensor (sensor MQ2). And here both NodeMCU publish both sensor data with MQTT broker, my MQTT broker is RaspberryPi.
  From both NodeMCUs I send all sensor data into ThingSpeak for data storage. And NodeMCU is also connected with LED and BUZZER, when the sensor data exceeds the threshold value, the buzzer and LED will light up.
 
-### Installation
+### Installation for NodeMCU
 
 For NodeMCU all installation and all required settings:-
 
@@ -65,7 +65,7 @@ For NodeMCU all installation and all required settings:-
     + The options list will present the available COM ports. For our example, our NodeMCU added COM6 and will be selected by clicking on COM6.
 
     + The Board selection, are several NodeMCU
-    settings. These include CPU Frequency, Flash Size, andalso Upload Speed. If Upload Speed is not set to 115200,select the speed of 115200 from the options from that item. The speed of 115200 is the optimum transfer rate which is used to transfer data to and from the NodeMCU.
+    settings. These include CPU Frequency, Flash Size, andalso Upload Speed. If Upload Speed is not set to 115200,select the speed of 115200 from the options from that item.       The speed of 115200 is the optimum transfer rate which is used to transfer data to and from the NodeMCU.
 
   - Library to install for this project
     + **Adafruit ESp8266**: a collcetion of example codes for ESP8266 chipset.
@@ -75,3 +75,36 @@ For NodeMCU all installation and all required settings:-
     + **PubSubClient**: MQTT messaging library for ESP8266.
 
     + **ThingSpeak**: To interface Wifi devices with ThingSpeak server to send and read data.
+
+### Installation for Rapsberry Pi
+
++ Installing OS on Raspberry Pi
+   - With the help of card reader or PenDrive plug my SDcard on my computer system and going to [Raspberry Pi.org/documentation](https://www.raspberrypi.com/documentation/)from here I downloaded OS Imager and did all setup of my Raspberry pi whichever I required to making our project.
+
++ Installing Python3 on Raspberry Pi
+   - Open Raspberry Pi dekstop on computer and open Raspberry Pi terminal enter command :
+     >> sudo apt-get install idle
+
++ Installing MQTT broker on Raspberry Pi
+  - Open Raspberry Pi terminal and enter command
+     * Run the following command to upgrade and update your system:
+       >> sudo apt update && sudo apt upgrade
+       
+     * To install the Mosquitto Broker:
+       >> apt-get install -y mosquitto mosquitto-clients
+
+     * To make Mosquitto auto start when the Raspberry Pi boots:  
+       >> sudo systemctl enable mosquitto.service
+
+     * Now, test the installation by running the following command:
+       >> mosquitto -v
+
++ Installing all neccessary Libraries
+     * To install MQTT library in python
+       >> sudo pip3 install paho.mqtt
+
+     * To install requests library in python3
+       >> sudo pip3 install requests
+
+           
+
