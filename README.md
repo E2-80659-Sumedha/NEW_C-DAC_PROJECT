@@ -17,7 +17,7 @@ For NodeMCU all installation and all required settings:-
 
   - The open-source Arduino Software(IDE) makes it easy to write and upload it to the board. This software can be used with any Arduino board. 
 
-  - To upload program on NodeMCU microcontroller we have to Download IDE__[Arduino IDE](https://www.arduino.cc/en/software)__ on your system from which we can easily upload  our code on NodeMCU.
+  - To upload program on NodeMCU microcontroller we have to Download IDE from this link __[Arduino IDE](https://www.arduino.cc/en/software)__ on your system from which we can easily upload  our code on NodeMCU.
 
   - Add NdeMCU Library to the IDE 
     + The IDE needs to know details about the NodeMCU module.
