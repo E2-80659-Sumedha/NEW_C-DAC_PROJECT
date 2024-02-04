@@ -10,25 +10,27 @@
 For NodeMCU all installation and all required settings:-
 
   __NodeMCU :)__
+
     The NodeMCU(Node MicroController Unit) is an open-source software and hardware development enviornment built around an inexpensive System-on-Chip(SoC) called the ESP8266.
 
   __Arduino IDE :)__
+
     - The open-source Arduino Software(IDE) makes it easy to write and upload it to the board. This software can be used with any Arduino board. 
 
     - To upload program on NodeMCU microcontroller we have to Download IDE__[Arduino IDE](https://www.arduino.cc/en/software)__ on your system from which we can easily upload  our code on NodeMCU.
 
     - Add NdeMCU Library to the IDE 
-        + The IDE needs to know details about the NodeMCU module.
+      + The IDE needs to know details about the NodeMCU module.
 
-        + This information is available in a configuration file which will be added to the IDE.
+      + This information is available in a configuration file which will be added to the IDE.
 
-        + Select the **File->Preferences**
+      + Select the **File->Preferences**
 
-        + This will open up a new window, where we set the IDE to point to the configuration file.
+      + This will open up a new window, where we set the IDE to point to the configuration file.
 
-        + In the field "**Additional Boards Manager URLs:**" enter **http://arduino.esp8266.com/stable/package_esp8266com_index.json**
+      + In the field "**Additional Boards Manager URLs:**" enter **http://arduino.esp8266.com/stable/package_esp8266com_index.json**
 
-        + Select the **OK** button at the bottom of the window when the link address is entered.
+      + Select the **OK** button at the bottom of the window when the link address is entered.
 
     - Selecting the NodeMCU Board driver
         + Navigate to the Boards Manager from the
