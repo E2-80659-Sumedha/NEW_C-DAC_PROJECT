@@ -76,16 +76,16 @@ For NodeMCU all installation and all required settings:-
 
     + **ThingSpeak**: To interface Wifi devices with ThingSpeak server to send and read data.
 
-### Installation for Rapsberry Pi
+### Installation for Rapsberry Pi 3b+
 
-+ Installing OS on Raspberry Pi
++ Installing OS on Raspberry Pi 3b+
    - With the help of card reader or PenDrive plug my SDcard on my computer system and going to [Raspberry Pi.org/documentation](https://www.raspberrypi.com/documentation/)from here I downloaded OS Imager and did all setup of my Raspberry pi whichever I required to making our project.
 
-+ Installing Python3 on Raspberry Pi
++ Installing Python3 on Raspberry Pi3b+
    - Open Raspberry Pi dekstop on computer and open Raspberry Pi terminal enter command :
      >> sudo apt-get install idle
 
-+ Installing MQTT broker on Raspberry Pi
++ Installing MQTT broker on Raspberry Pi3b+
   - Open Raspberry Pi terminal and enter command
      * Run the following command to upgrade and update your system:
        >> sudo apt update && sudo apt upgrade
