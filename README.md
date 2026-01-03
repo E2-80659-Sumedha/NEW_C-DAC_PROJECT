@@ -2,7 +2,7 @@
 
 ### Description
 
- Now I decided to do my project using NodeMCU and RaspberryPi, where I used two NodeMCUs (ESP8266), in which I connected the temperature and humidity sensor (DHT11 sensor) to one NodeMCU and to the other NodeMCU I connected the gas sensor (sensor MQ2). And here both NodeMCU publish both sensor data with MQTT broker, my MQTT broker is RaspberryPi.
+ Now We decided to do my project using NodeMCU and RaspberryPi, where we used two NodeMCUs (ESP8266), in which we connected the temperature and humidity sensor (DHT11 sensor) to one NodeMCU and to the other NodeMCU we connected the gas sensor (sensor MQ2). And here both NodeMCU publish both sensor data with MQTT broker, my MQTT broker is RaspberryPi.
  From both NodeMCUs I send all sensor data into ThingSpeak for data storage. And NodeMCU is also connected with LED and BUZZER, when the sensor data exceeds the threshold value, the buzzer and LED will light up.
 
 ### Installation for NodeMCU
